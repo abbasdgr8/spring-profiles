@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.capgemini'
-version '${version}'
+//version '0.10.1'
 
 apply plugin: 'java'
 apply plugin: 'maven'
