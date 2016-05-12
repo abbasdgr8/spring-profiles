@@ -19,6 +19,11 @@ public interface SpringProfiles {
     String STUBBED_PROFILE_NAME = "stubbed";
 
     /**
+     * The 'simulateFailure' profile is used when service activators are expected to simulate backend systems failures.
+     */
+    String SIMULATE_FAILURE_PROFIL_NAME = "simulateFailure";
+
+    /**
      * The 'embeddedAMQ' profile would be expected to use embedded ActiveMQ but prod-like everything else
      */
     String EMBEDDED_AMQ_PROFILE_NAME = "embeddedAMQ";
