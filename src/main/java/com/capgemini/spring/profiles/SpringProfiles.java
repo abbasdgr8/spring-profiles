@@ -21,7 +21,7 @@ public interface SpringProfiles {
     /**
      * The 'simulateFailure' profile is used when service activators are expected to simulate backend systems failures.
      */
-    String SIMULATE_FAILURE_PROFIL_NAME = "simulateFailure";
+    String SIMULATE_FAILURE_PROFILE_NAME = "simulateFailure";
 
     /**
      * The 'embeddedAMQ' profile would be expected to use embedded ActiveMQ but prod-like everything else
